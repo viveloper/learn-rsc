@@ -15,9 +15,17 @@ export function SidebarMenu() {
         <li>
           <Link
             className="hover:bg-slate-100 w-full flex px-3 py-2 rounded-lg"
-            href="/products"
+            href="/products-rsc"
           >
-            Products
+            Products(RSC)
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="hover:bg-slate-100 w-full flex px-3 py-2 rounded-lg"
+            href="/products-csr"
+          >
+            Products(CSR)
           </Link>
         </li>
       </ul>
